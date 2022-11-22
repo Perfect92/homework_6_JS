@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2? family= Dancing+Script & display=swap');
+
+
+body {
+    height: 100vh;
+    background-image: url("images/1623578443_33-oir_mobi-p-korichnevie-gori-priroda-krasivo-foto-37.jpg");
+    background-repeat: no-repeat;
+}
+.container {
+    width: 1280px;
+    margin: auto;
+}
+.quotes-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.inner-quotes-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 900px;
+    text-align: center;
+    min-height: 400px;
+    padding: 0 25px;
+    color: gray;
+    border-radius: 10px;
+    border: 10px solid transparent;
+    box-shadow: 0 2px 6px 0  rgba(0,0,0,0.9);
+}
+.inner-quotes-container p {
+    font-size: 1.5rem;
+    color: white;
+}
+.inner-quotes-container h3{
+    font-size: 2rem;
+    color: white;
+    font-family: "Dancing Script", cursive;
+}
+.quote-btn{
+    padding-top: 25px;
+}
+@media (max-width: 1280px) {
+    .inner-quotes-container{
+        width: 95%
+    }
+}
+
+@media (max-width: 900px) {
+    .inner-quotes-container{
+        width: 100%
+    }
+}
+
+@media (max-width: 480px) {
+    .inner-quotes-container p{
+       font-size: 1.2rem;
+    }
+    .inner-quotes-container h3{
+        font-size: 1.5rem;
+    }
+}
+.btn {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.btn-new {
+    background: transparent;
+    color: white;
+    border: transparent;
+    transition: 500ms;
+}
+.btn-new:hover{
+    transform: scale(1.1);
+    background: burlywood ;
+    color: black ;
+    border: gray;
+
+}
+
+
+
