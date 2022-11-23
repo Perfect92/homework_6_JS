@@ -29,11 +29,7 @@ generate = () => {
         '-Винсент Ван Гог':'" Если внутренний голос говорит вам, что вы не можете рисовать – рисуйте как можно больше, тогда этот голос затихнет."',
     };
     var authors = Object.keys(quotes);
-
-    // Как добавить random ???
-    // var author1 = authors[Math.floor(Math.random() * authors.length)];
-
-    var author = authors[current];
+    var author1 = authors[Math.floor(Math.random() * authors.length)];
     var quote = quotes[author];
 
     document.querySelector('#author').textContent = author ;
